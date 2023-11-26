@@ -1,0 +1,12 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.followers {
+    grid-column: 1
+}
+
+.subs {
+    grid-column: 2
+}
